@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./img/assest/funco_logo.jpg" alt="imagen del sitio">
+        <h1 class="nombre">Gladys Vilaro</h1>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button id="cerrar" class="cerrar-menu"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+
+                <li><a href="#seccion_1"><i class="bi bi-dot"></i>Sobre mi</li>
+                <li><a href="#estudios"><i class="bi bi-dot"></i>Estudios</li>
+                <li><a href="#laboral"><i class="bi bi-dot"></i>Experiencia laboral</li>
+                <li><a href="#form"><i class="bi bi-dot"></i>Contacto</li>
+                <li><a href="#redes"><i class="bi bi-dot"></i>Redes</li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,50.10 C150.00,150.33 271.29,-50.10 500.00,50.10 L500.00,0.00 L0.00,0.00 Z"
+                style="stroke: none; fill: #f74780;"></path>
+        </svg>
+    </div>
+
+    <main>
+        <section id="seccion_1">
+            <div class="izquierda">
+                <h1 class="portfolio animate__animated animate__bounce animate__faster"><span class="create">SOBRE MI<i
+                            class="bi bi-dot"></i></span>PORTAFOLIO PERSONAL</h1>
+                <P>“Soy desarrolladora web jr-trainee con experiencia en HTML, CSS y JavaScript.También he
+                    realizado cursos de tester manual. Me apasiona el desarrollo web y estoy emocionada de seguir
+                    aprendiendo y creciendo en esta industria"</P>
+            </div>
+            <div class="derecha"></div>
+        </section>
+
+
+
+
+        <section id="estudios">
+
+
+            <div class="container">
+                <div class="card">
+                    <div class="personajes_1">
+                        <div class="imagen_personaje1"></div>
+                        <div class="detalle_1">
+                            <h2>desarrolladora web</h2>
+                            <p>realice cursos de desarrollo web en sociedades digitales,alura latam,Ada y alkemy,aprendi
+                                html,css y javascript</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="personajes_2">
+                        <div class="imagen_personaje2"></div>
+                        <div class="detalle_2">
+                            <h2>tester Manual</h2>
+                            <p>realice cursos de tester manual en coderhouse,Argentina programa etapa 1 y 2 Y ada</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="personajes_3">
+                        <div class="imagen_personaje3"></div>
+                        <div class="detalle_3">
+                            <h2>Cursos actualidad</h2>
+                            <p>Actualmente me sigo capacitando,comence un curso de python para adquirir mas herramientas
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <section id="laboral">
+            <div class="section2">
+                <div class="cards">
+                    <div class="face front">
+                        <img src="./img/assest/funco7.jpg" alt="tarjeta seccion 2 funco programadora">
+                        <h3>Experiencia laboral</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>experiencia laboral</h3>
+                        <p>. Me encanta trabajar en equipo y estoy comprometida a crear
+                            soluciones innovadoras y de alta calidad para mis clientes. ¡Gracias por visitar mi perfil!”
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="face front">
+                        <img src="./img/assest/funco8.jpg" alt="tarjeta seccion 2 funco programadora 2">
+                        <h3>Experiencia laboral</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>experiencia laboral</h3>
+                        <p>trabaje en el area de telecomunicaciones,en el sector de administracion de redes para una
+                            empresa
+                            contratista al servicio de telecentro</p>
+                    </div>
+                </div>
+                <div class="cards ">
+                    <div class="face front funko3">
+                        <img src="./img/assest/funco9.jpg" alt="tarjeta seccion 2 funco programadora nuevo">
+                        <h3>Experiencia laboral</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>Experiencia laboral</h3>
+                        <p>actualmente realizo una pasantia en una empresa de colombia,estamos trabajando en un
+                            importante
+                            proyecto para google</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="form" class="form">
+            <form action="#" class="formulario" method="get" enctype="application/x-www-form-urlencoded">
+                <h1 class="formulario__titulo">Contactame</h1>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Nombre:</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">correo:</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">telefono:</label>
+                <input type="text" class="formulario__input">
+                <label for="" class="formulario__label">Mensaje</label>
+                <input type="submit" class="formulario__submit">
+            </form>
+
+    </main>
+
+    <div class="footerContainer" id="redes">
+        <div class="socialIcons">
+            <a href="https://www.linkedin.com/in/gladysvilaro622/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a
+                href="https://api.whatsapp.com/send?phone=1173649327&text=Hola,%20vi%20un%20anuncio%20en%20Facebook%20y%20quisiera%20conocer%20más%20sobre%20tus%20productos"><i
+                    class="bi bi-whatsapp" target="_blank"></i></a>
+            <a href="https://github.com/Glavilaro" target="_blank"><i class="bi bi-github"></i></a>
+        </div>
+        <div class="copy">
+            <p>Copyrigth &copy;2024;Designed by <span class="designer">Gladys Vilaró</span></p>
+        </div>
+    </div>
+
+    <body>
+
+        <script src="App.js"></script>
+
+</html>
